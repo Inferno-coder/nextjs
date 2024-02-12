@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-5 md:p-10 text-gray-800 ">
+    <section class="bg-purple-100 rounded p-5 rounded-2xl mb-10">
+     <div class="container mx-auto">
+     <div class="flex">
+        <a class="text-3xl font-bold pr-5 border-r mr-5 border-purple-400" href="index.html">Agency</a>
+     <div class="my-auto">
+        <button class="lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+              </svg>              
+        </button>
+        <ul class="lg:flex font-bold text-gray-600 hidden">
+         <li class="pr-5 "><a class="px-3  rounded-2xl py-2" href="">Home</a></li>
+         <li class="pr-5 "><a class="px-3  rounded-2xl py-2" href="">Services</a></li>
+         <li class="pr-5 "><a class="px-3  rounded-2xl py-2" href="">Portfolio</a></li>
+         <li class="pr-5 "><a class="px-3  rounded-2xl py-2" href="">About</a></li>
+         <li class="pr-5 "><a class="px-3  rounded-2xl py-2" href="">Contact</a></li>
+        </ul> 
+     </div>   
+     <a href="" class="text-1xl bg-red-500 flex rounded-2xl text-white font-bold ml-auto py-2 px-3">
+        <span class="pr-3 hidden lg:block">Get a Quote</span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+          </svg>
+     </a>    
+     </div>
+     <div class="hidden">
+        <ul class="font-bold text-gray-600 lg:hidden">
+            <li class="mt-3"><a class="rounded-2xl py-2" href="">Home</a></li>
+            <li class="mt-3"><a class="rounded-2xl py-2" href="">Services</a></li>
+            <li class="mt-3"><a class="rounded-2xl py-2" href="">Portfolio</a></li>
+            <li class="mt-3"><a class="rounded-2xl py-2" href="">About</a></li>
+            <li class="mt-3"><a class="rounded-2xl py-2" href="">Contact</a></li>
+         </ul>
+     </div>
+     <div class="flex py-10 lg:pt-40">
+        <div class="w-full lg:w-1/2">
+            <h1 class="text-3xl lg:text-7xl text-center lg:text-left text-bold">World Class Design</h1>
+            <p class="mt-8 text-1xl text-center lg:text-left lg:text-2xl  text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum debitis rerum dolor repudiandae quia doloribus dolorum! Maxime, iure tempore!</p>
+            <div class="flex mt-12 justify-center lg:justify-start">
+             <a class="mr-5 text-lg bg-purple-600 text-white py-2 px-3  rounded mt-4" href="">Services</a>
+             <a class="mr-5 text-lg bg-pink-600 text-white py-2 px-3  rounded mt-4" href="">Contact us </a>
+            </div>
+        </div>
+        <div class="w-1/2 hidden lg:flex">
+            <img src="./assests/hero2.svg" alt="">
+        </div>
+     </div> 
+     <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+          </svg>
+        <span class="ml-2">Scroll down</span>          
+     </div>
+     </div>
+    </section>
+    <section class="bg-sky-100 rounded lg:p-5 rounded-2xl mb-10">
+        <div class="container mx-auto border">
+            <div class="py-20">
+                <h2 class="text-center text-5xl font-bold">Our Services</h2>
+                <p class="w-full lg:w-1/2 text-center mx-auto mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores blanditiis ipsa harum quas a non ducimus? Saepe minima sequi possimus voluptatum corrupti culpa ut adipisci, deserunt et quae autem pariatur?</p>
+            </div>
+            <div class="flex flex-wrap">
+             <div class="w-full lg:w-1/3 p-5">
+                <div class="bg-white p-10 rounded-2xl shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-10 text-red-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                      </svg>
+                      
+                    <h2 class="text-2xl font-bold text-gray-700">Design</h2>
+                    <p class="mt-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero fuga unde assumenda voluptates animi hic ipsum sint accusamus vel?</p>
+                </div>
+             </div>
+             <div class="w-full lg:w-1/3 p-5">
+                <div class="bg-white p-10 rounded-2xl shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-10 text-sky-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                      </svg>
+                      
+                    <h2 class="text-2xl font-bold text-gray-700">Development</h2>
+                    <p class="mt-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero fuga unde assumenda voluptates animi hic ipsum sint accusamus vel?</p>
+                </div>
+             </div>
+             <div class="w-full lg:w-1/3 p-5">
+                <div class="bg-white p-10 rounded-2xl shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 mb-10 text-sky-500">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z" />
+                      </svg>                      
+                      
+                    <h2 class="text-2xl font-bold text-gray-700">Marketing</h2>
+                    <p class="mt-3 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vero fuga unde assumenda voluptates animi hic ipsum sint accusamus vel?</p>
+                </div>
+             </div>
+            </div>
+        </div>
+    </section>
+    <section class="rounded-2xl mb-10">
+        <div class="container mx-auto w-3/4 bg-green-400 rounded py-10">
+          <h1 class="text-white font-bold text-3xl text-center">Companies that trust on us</h1>
+          <div class="flex flex-wrap mt-8">
+            <div class="w-full py-5 lg:py-0 lg:w-1/4 "><img class="max-h-12 mx-auto " src="./assests/dummy_logo.png" alt=""></div>
+            <div class="w-full py-5 lg:py-0 lg:w-1/4 "><img class="max-h-12 mx-auto " src="./assests/dummy_logo.png" alt=""></div>
+            <div class="w-full py-5 lg:py-0 lg:w-1/4 "><img class="max-h-12 mx-auto " src="./assests/dummy_logo.png" alt=""></div>
+            <div class="w-full py-5 lg:py-0 lg:w-1/4 "><img class="max-h-12 mx-auto " src="./assests/dummy_logo.png" alt=""></div>
+        </div>
+    </div>
+    </section>
+    <section class="bg-pink-100 rounded lg:p-5 rounded-2xl mb-10">
+         <div class="container mx-auto border">
+           <div class="py-20">
+                <h2 class="text-center text-5xl font-bold">Our Portfolio</h2>
+                <p class="w-full lg:w-1/2 text-center mx-auto mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores blanditiis ipsa harum quas a non ducimus? Saepe minima sequi possimus voluptatum corrupti culpa ut adipisci, deserunt et quae autem pariatur?</p>
+            </div>
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-1/2 lg:py-12 py-5">
+                    <div class="border lg:w-8/12 w-3/4 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg">
+                            <img class="rounded-t-3xl" src="./assests/product.png" alt="">
+                            <div class="p-5">
+                                <div class="flex">
+                                    <p><span class=  "px-4 mr-5 bg-orange-300  rounded-2xl border border-green-200">Design</span></p>
+                                <p><span class= "px-4 mr-5 bg-green-300 rounded-2xl border border-green-200">Design</span></p>
+                                </div>
+                                <h3 class="mt-4 text-lg font-bold">Design-0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:py-12 py-5">
+                    <div class="border lg:w-8/12 w-3/4 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg">
+                            <img class="rounded-t-3xl" src="./assests/product.png" alt="">
+                            <div class="p-5">
+                                <div class="flex">
+                                    <p><span class=  "px-4 mr-5 bg-orange-300  rounded-2xl border border-green-200">Design</span></p>
+                                <p><span class= "px-4 mr-5 bg-green-300 rounded-2xl border border-green-200">Design</span></p>
+                                </div>
+                                <h3 class="mt-4 text-lg font-bold">Design-0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:py-12 py-5">
+                    <div class="border lg:w-8/12 w-3/4 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg">
+                            <img class="rounded-t-3xl" src="./assests/product.png" alt="">
+                            <div class="p-5">
+                                <div class="flex">
+                                    <p><span class=  "px-4 mr-5 bg-orange-300  rounded-2xl border border-green-200">Design</span></p>
+                                <p><span class= "px-4 mr-5 bg-green-300 rounded-2xl border border-green-200">Design</span></p>
+                                </div>
+                                <h3 class="mt-4 text-lg font-bold">Design-0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:py-12 py-5">
+                    <div class="border lg:w-8/12 w-3/4 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg">
+                            <img class="rounded-t-3xl" src="./assests/product.png" alt="">
+                            <div class="p-5">
+                                <div class="flex">
+                                    <p><span class=  "px-4 mr-5 bg-orange-300  rounded-2xl border border-green-200">Design</span></p>
+                                <p><span class= "px-4 mr-5 bg-green-300 rounded-2xl border border-green-200">Design</span></p>
+                                </div>
+                                <h3 class="mt-4 text-lg font-bold">Design-0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 lg:py-12 py-5">
+                    <div class="border lg:w-8/12 w-3/4 mx-auto">
+                        <div class="bg-white rounded-3xl shadow-lg">
+                            <img class="rounded-t-3xl" src="./assests/product.png" alt="">
+                            <div class="p-5">
+                                <div class="flex">
+                                    <p><span class=  "px-4 mr-5 bg-orange-300  rounded-2xl border border-green-200">Design</span></p>
+                                <p><span class= "px-4 mr-5 bg-green-300 rounded-2xl border border-green-200">Design</span></p>
+                                </div>
+                                <h3 class="mt-4 text-lg font-bold">Design-0</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+</body>
+</html>
