@@ -12,6 +12,7 @@ export const Header = () => {
        <HeaderItem title='Collections' Icon={CollectionIcon}/>
        <HeaderItem title='Search' Icon={SearchIcon}/>
        <HeaderItem title='Account' Icon={UserIcon}/>
+<div>
      </div>
      <div className='pb-10'>
      <img src="https://www.edigitalagency.com.au/wp-content/uploads/hulu-logo-png.png" height='120' width='120' alt="" />
